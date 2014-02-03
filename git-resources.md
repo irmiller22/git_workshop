@@ -15,3 +15,4 @@
   - [Git Branching](http://pcottle.github.io/learnGitBranching/)
   - [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html)
   - [Git ready](http://gitready.com/)
+  - [Git Immersion](http://gitimmersion.com/)
