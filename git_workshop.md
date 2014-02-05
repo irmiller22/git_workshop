@@ -4,7 +4,7 @@
 - Create new Github account
 - Quick overview of Github
 - Clone code from Github 
-- Change code aroudna bit
+- Change code around a bit
 - Learn how to add files to staging area
 - Learn how to commit the changes
 - Push code back to gihub
@@ -17,8 +17,6 @@
 - Merge branch back to master
 - Add contents of new repository to commit
 - Push up to master branch of Github repository
-
-
 
 ##First Steps:
 Open terminal and follow instructions:
@@ -43,6 +41,7 @@ Open terminal and follow instructions:
 - Before you can commit new files, you have to "stage" them by adding them to a staging directory. You do this by `git add README.md`. You can also add all new/updated files in current directory by doing `git add .`, and if you also need to remove files that were deleted, you do `git add -A`
 - Once all the previous steps are finished, you commit the staging file via `git commit -m "initial commit".
 - Finally, push up to your remote via `git push origin master`.
+
 
 
 
