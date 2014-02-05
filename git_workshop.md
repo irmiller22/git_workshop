@@ -1,6 +1,6 @@
 #Git Workshop
 
-###Goals:
+##Goals:
 - Create new Github account
 - Quick overview of Github
 - Clone code from Github 
@@ -20,7 +20,7 @@
 
 
 
-###First Steps:
+##First Steps:
 Open terminal and follow instructions:
 
     cd ~/Desktop
@@ -31,6 +31,8 @@ Open terminal and follow instructions:
     git init
     git add README.md
     git commit -m "initial commit"
+    git remote add origin <paste http:// link here from Github>
+    git push origin master
     
 ###What Happened?
 - `cd ~/Desktop` will change directory into our 'Users/<username>/desktop' directory
@@ -41,3 +43,6 @@ Open terminal and follow instructions:
 - Before you can commit new files, you have to "stage" them by adding them to a staging directory. You do this by `git add README.md`. You can also add all new/updated files in current directory by doing `git add .`, and if you also need to remove files that were deleted, you do `git add -A`
 - Once all the previous steps are finished, you commit the staging file via `git commit -m "initial commit".
 - Finally, push up to your remote via `git push origin master`.
+
+
+
