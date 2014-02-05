@@ -23,7 +23,7 @@
 ###First Steps:
 Open terminal and follow instructions:
 
-    cd ~
+    cd ~/Desktop
     mkdir git-todo
     cd git-todo
 
@@ -33,6 +33,8 @@ Open terminal and follow instructions:
     git commit -m "initial commit"
     
 ###What Happened?
+- `cd ~/Desktop` will change directory into our 'Users/<username>/desktop' directory
+- `mkdir git-todo` will create a new folder called 'git-todo' on your Desktop
 - `git init` creates a new repository in our `git-todo` directory. `cd git-todo` changes the directory into the `git-todo` directory. Think of it as going down one level.
 - `touch README.md` generates a markdown file that is called README. 
 - `git init` initializes, or generates, a new `.git` file. Think of a `.git` file as the memory store at the root of a directory. The logic that stores your repository data as well as the synchronization between your remote repositories is encapsulated in this `.git` file.
