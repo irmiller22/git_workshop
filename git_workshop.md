@@ -58,7 +58,7 @@ Once you've cloned the repo, make the changes you want and then, just like when 
     git push origin master
 
 ##Branching:
-Another best practice technique is to make every body of work a separate branch. So far, we've been pushing to the `master` branch. You can create your own branching off of the `master` branch and do you work on that, and then `merge` those changes into `master` when you're done.
+Another best practice technique is to make every body of work a separate branch. So far, we've been pushing to the `master` branch. You can create your own branching off of the `master` branch and do you work on that.
 
 While on master, before you begin working, type:
 `git checkout -b <your-branch-name>`
@@ -73,3 +73,20 @@ Note the last command is pushing the changes up to your new branch, not master.
 
 ##Merging
 When you're done with your work on your new branch, you may want to merge it into master. There are two ways to do this, either locally (through git on your computer) or remotely (on Github).
+
+###Locally
+Move onto the branch that you want to merge <strong>into</strong>, in this case, `master`: `git checkout master`.
+Then, merge your new branch into master: `git merge <your-branch-name>`
+Now, master is up to date with your changes on your local repo, and you can `push` them up to Github.
+
+###On Github
+One arguably better way to handle merging when dealing with a project that multiple people work on is to do all of your work on your new branch, push it up to Github, and then submit a `Pull Request` on the site. Here, others can see the merge, and Github can check to make sure there aren't any conflicts.
+
+##More Commands
+Here are some other commands to go along with the basic ones we've already covered:
+
+`git status`: at any point of your work, if you want to see the status of your repo, type `git status` when you're within your project directory to see which files are staged or unstaged.
+
+`git pull`: when you're working with other people on a project that's living on Github, most likely they'll be making changes to the code and pushing it up. To bring those changes down to your local repo (on your computer), you will need to `pull` them.
+
+`git stash`: let's say you've made changes since then that you don't want anymore. Instead of going into your text editor and manually finding the change, you can `stash` them and they'll be deleted. Your file will go back to how it was when it was staged last. This is handy, but make sure you absolutely want to do away with your changes before you do this!
