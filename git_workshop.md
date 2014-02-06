@@ -62,29 +62,6 @@ Open terminal and follow instructions:
 - Change directory into the repo via `cd git_workshop_test`
 - Open up the `assignment.md` file, and follow instructions there.
 
-##OTHER RESOURCES:
-###Getting Started
-- [Getting Started 1](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git)
-- [Getting Started 2](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
-
-###Basics of Git
-- [Git Basics 1](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository)
-- [Viewing The Commit History](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
-- [Undoing Things](http://git-scm.com/book/en/Git-Basics-Undoing-Things)
-- [Remotes](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes)
-- [Branches](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is)
-- [Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
-- [Branch Management](http://git-scm.com/book/en/Git-Branching-Branch-Management)
-- [Workflows](http://git-scm.com/book/en/Git-Branching-Branching-Workflows)
-- [Rebasing](http://git-scm.com/book/en/Git-Branching-Rebasing)
-
-###Additional Resources
-- [Git Guide](http://rogerdudler.github.io/git-guide/)
-- [Think like a git](http://think-like-a-git.net/)
-- [Git Branching](http://pcottle.github.io/learnGitBranching/)
-- [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html)
-- [Git ready](http://gitready.com/)
-
 ##Cloning:
 `cd` into a the directory you want your project to live in.
 
@@ -133,3 +110,26 @@ Here are some other commands to go along with the basic ones we've already cover
 `git pull`: when you're working with other people on a project that's living on Github, most likely they'll be making changes to the code and pushing it up. To bring those changes down to your local repo (on your computer), you will need to `pull` them.
 
 `git stash`: let's say you've made changes since then that you don't want anymore. Instead of going into your text editor and manually finding the change, you can `stash` them and they'll be deleted. Your file will go back to how it was when it was staged last. This is handy, but make sure you absolutely want to do away with your changes before you do this!
+
+##OTHER RESOURCES:
+###Getting Started
+- [Getting Started 1](http://git-scm.com/book/en/Getting-Started-A-Short-History-of-Git)
+- [Getting Started 2](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
+
+###Basics of Git
+- [Git Basics 1](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository)
+- [Viewing The Commit History](http://git-scm.com/book/en/Git-Basics-Viewing-the-Commit-History)
+- [Undoing Things](http://git-scm.com/book/en/Git-Basics-Undoing-Things)
+- [Remotes](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes)
+- [Branches](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is)
+- [Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
+- [Branch Management](http://git-scm.com/book/en/Git-Branching-Branch-Management)
+- [Workflows](http://git-scm.com/book/en/Git-Branching-Branching-Workflows)
+- [Rebasing](http://git-scm.com/book/en/Git-Branching-Rebasing)
+
+###Additional Resources
+- [Git Guide](http://rogerdudler.github.io/git-guide/)
+- [Think like a git](http://think-like-a-git.net/)
+- [Git Branching](http://pcottle.github.io/learnGitBranching/)
+- [Visual Git](http://marklodato.github.io/visual-git-guide/index-en.html)
+- [Git ready](http://gitready.com/)
