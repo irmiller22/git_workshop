@@ -42,6 +42,34 @@ Open terminal and follow instructions:
 - Once all the previous steps are finished, you commit the staging file via `git commit -m "initial commit".
 - Finally, push up to your remote via `git push origin master`.
 
+##Cloning:
+`cd` into a the directory you want your project to live in.
 
+On Github, go to the repository you want to contribute to and copy the link on the right hand side of the page.
 
+Back in terminal, and type: `git clone <paste http:// link here from Github>`
 
+(Note, if this project is something sustantial, say an open source project that you would like to contribute to, it's best practices to `Fork` the repo to your page and then clone that fork. A `fork` is basically copying and pasting the repo.)
+
+Once you've cloned the repo, make the changes you want and then, just like when you initialized a new repo above, stage, commit, and push your changes:
+
+    git add <file you've changed>
+    git commit -m "these are the changes I've made"
+    git push origin master
+
+##Branching:
+Another best practice technique is to make every body of work a separate branch. So far, we've been pushing to the `master` branch. You can create your own branching off of the `master` branch and do you work on that, and then `merge` those changes into `master` when you're done.
+
+While on master, before you begin working, type:
+`git checkout -b <your-branch-name>`
+
+Do your work on this branch, and while on this branch, be sure, like above to stage, commit, and, if you want your teammates to see your work, push your changes up to Github on your new branch:
+
+    git add <file you've changed>
+    git commit -m "these are the changes I've made"
+    git push origin <your-branch-name>
+
+Note the last command is pushing the changes up to your new branch, not master. 
+
+##Merging
+When you're done with your work on your new branch, you may want to merge it into master. There are two ways to do this, either locally (through git on your computer) or remotely (on Github).
