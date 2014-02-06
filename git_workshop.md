@@ -1,15 +1,18 @@
 #Git Workshop
 
 ##Goals:
+####Create a Github Account
 - Create new Github account
 - Quick overview of Github
 
-- Learn how to create own repository on Github +
-- Initialize repository on computer +
-- Set remote repository to Github repo URL +
+####Create Repository
+- Learn how to create own repository on Github 
+- Initialize repository on computer 
+- Set remote repository to Github repo URL 
 - Add contents of new repository to commit
 - Push up to master branch of Github repository
 
+####Cloning a Repository
 - Clone code from Github 
 - Create new branch
 - Change code around a bit
