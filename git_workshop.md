@@ -22,7 +22,7 @@
 - Change code around a bit
 - Learn how to add files to staging area
 - Commit on new branch
-- Push code back to gihub
+- Push code back to Github
 
 ##First Steps:
 Install Git:
@@ -63,6 +63,9 @@ Open terminal and follow instructions:
 - `git init` initializes, or generates, a new `.git` file. Think of a `.git` file as the memory store at the root of a directory. The logic that stores your repository data as well as the synchronization between your remote repositories is encapsulated in this `.git` file.
 - Before you can commit new files, you have to "stage" them by adding them to a staging directory. You do this by `git add README.md`. You can also add all new/updated files in current directory by doing `git add .`, and if you also need to remove files that were deleted, you do `git add -A`
 - Once all the previous steps are finished, you commit the staging file via `git commit -m "initial commit".
+- In order to push these files up to your Github account, you need to create a repository on Github.com
+- Go to the main Github page, click on the '+' sign, and select `New Repository`. Then name the repository `git-todo`. Then once you have created the repository, copy the HTTPS clone URL in the middle of the screen.
+- Add your remote via `git remote add origin https://github.com/<your-username>/git-todo.git`
 - Finally, push up to your remote via `git push origin master`.
 
 ##Next Steps:
