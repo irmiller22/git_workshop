@@ -1,6 +1,10 @@
 #Git Workshop
 
 ##Goals:
+####Install Git
+- Install Git onto your computer
+- Set up Git configuration settings
+
 ####Create a Github Account
 - Create new Github account
 - Quick overview of Github
@@ -21,14 +25,22 @@
 - Push code back to gihub
 
 ##First Steps:
+Install Git:
+
+    Go to `http://git-scm.com/downloads`
+    Follow instructions regarding Git installation (should be included in Git download package)
+    Set up your Git configuration settings via instructions at `https://help.github.com/articles/set-up-git`
+    IMPORTANT: When configuring your Git email settings, MAKE SURE IT MATCHES THAT OF YOUR GITHUB ACCOUNT EMAIL / EMAIL YOU ARE PLANNING TO USE FOR GITHUB ACCOUNT
+    Ignore the `Password Caching` session for now - you can choose to do this later.
+
 Create New Github Profile:
 
-		Go to https://github.com/
-		Create a new account (username, email, password)
-		When you confirm your account, it will redirect to the home page
-		Click on the '+' sign next to your username in top right
-		Select 'New Repository' 
-		Give the repository the name 'git-todo'
+	Go to https://github.com/
+	Create a new account (username, email, password)
+	When you confirm your account, it will redirect to the home page
+	Click on the '+' sign next to your username in top right
+	Select 'New Repository' 
+	Give the repository the name 'git-todo'
 
 Open terminal and follow instructions:
 
